@@ -7,7 +7,7 @@ The technical tasks for prospective Ultalytics Developers.
 - git
 ## Instructions
 
-1. Fork the repo
+1. Clone the repo
 2. Create a new branch named interview/%YOUR_FULL_NAME%
 3. Follow the instructions inside the folder of the task(s) you were given.
 4. Make a pull request to the Ultralytics repo
