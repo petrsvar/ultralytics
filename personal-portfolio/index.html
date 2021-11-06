@@ -26,6 +26,26 @@
 </head>
 
 <body>
+  <!-- Navigation Bar ––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="navbar" class="navBar">
+    <a href="#welcome-section">Welcome</a>
+    <a href="#achiewements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#profile-link">Contact</a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+  </div>
+
+  <script>
+    function openDrawerMenu(){
+      var x = document.getElementById("navbar");
+      if (x.className === "navBar"){
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+  </script>
+  
   <!-- Welcome –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div id = "welcome-section" class="section hero">
