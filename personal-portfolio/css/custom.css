@@ -60,7 +60,7 @@
 
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
+.bottom-line {
   border-bottom: 1px solid #ddd;
 }
 
@@ -74,6 +74,13 @@
 }
 .categories .section-description { 
   margin-bottom: 4rem;
+}
+
+/* Bigger than 100 */
+@media (min-width: 100px) {
+  .hero-heading {
+    font-size: 2.4rem; 
+  }
 }
 
 /* Bigger than 550 */
