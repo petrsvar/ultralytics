@@ -20,5 +20,4 @@ The technical tasks for prospective Ultalytics Developers.
 - You can structure your project however you see fit, remember to prioritise readability
 - Your code should be self-documenting where appropriate
 - Remember to make regular commits that can be summarised in less than 20 words
-- Commit messages should be all lowercase
-- Branch names should be kebab case
+- Commit messages should be all lowercase :)
